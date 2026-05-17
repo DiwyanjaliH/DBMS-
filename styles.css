@@ -105,7 +105,7 @@ button:hover {
 }
 
 body{
-  height:150vh;
+  height:100vh;
   overflow:hidden;
   display:flex;
   justify-content:center;
@@ -185,8 +185,8 @@ body{
 /* Main Container */
 
 .container{
-  width:70%;
-  max-width:750px;
+  width:90%;
+  max-width:850px;
   padding:40px;
   border-radius:25px;
   text-align:center;
@@ -200,7 +200,7 @@ body{
 
 .container1{
   width:97%;
-  max-width:500px;
+  max-width:650px;
   padding:40px;
   border-radius:25px;
   align-self: center;
