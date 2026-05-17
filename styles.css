@@ -113,7 +113,7 @@ body{
 }
 
 .gif-container img{
-  width: 180px;
+  width: 400px;
   margin-bottom: 15px;
   animation: floatGif 3s ease-in-out infinite;
 }
@@ -181,7 +181,7 @@ body{
 
 .container{
   width:90%;
-  max-width:750px;
+  max-width:1000px;
   padding:40px;
   border-radius:25px;
   text-align:center;
