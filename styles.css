@@ -180,10 +180,10 @@ body{
 /* Main Container */
 
 .container{
-  width:90%;
+  width:60%;
   max-width:900px;
   padding:40px;
-  border-radius:35px;
+  border-radius:25px;
   text-align:center;
   background:rgba(85, 84, 84, 0.08);
   backdrop-filter:blur(12px);
@@ -195,7 +195,7 @@ body{
 
 .container1{
   width:97%;
-  max-width:750px;
+  max-width:600px;
   padding:40px;
   border-radius:10px;
   align-self: center;
