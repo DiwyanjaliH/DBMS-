@@ -4,10 +4,10 @@ const submitBtn = document.getElementById("submitBtn");
 const notification = document.getElementById("notification");
 const timerDisplay = document.getElementById("timer");
 
-const dropboxLink = "https://www.dropbox.com/request/76mvjgdzn6m5av0phivb";
+const dropboxLink = "https://www.dropbox.com/request/1sl8i9ymay676x6y6rjj";
 
 // ⏳ 60 minutes in ms
-const DURATION = 60 * 60 * 1000;
+const DURATION = 5 * 60 * 1000;
 
 // check if end time already exists
 let endTime = localStorage.getItem("endTime");
