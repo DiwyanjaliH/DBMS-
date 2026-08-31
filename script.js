@@ -27,19 +27,20 @@ function updateTimer() {
   if (timeLeft <= 0) {
     timerDisplay.innerText = "⛔ Time's Up!";
     submitBtn.disabled = true;
-
     notification.classList.remove("hidden");
     notification.innerText = "❌ Submission time is over!";
-
     return;
   }
 
-  let minutes = Math.floor(timeLeft / (1000 * 60));
+  let hours = Math.floor(timeLeft / (1000 * 60 * 60));
+  let minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
   let seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
+  hours = hours < 10 ? "0" + hours : hours;
+  minutes = minutes < 10 ? "0" + minutes : minutes;
   seconds = seconds < 10 ? "0" + seconds : seconds;
 
-  timerDisplay.innerText = `${minutes}:${seconds}`;
+  timerDisplay.innerText = `${hours}:${minutes}:${seconds}`;
 
   // 🔴 last 1 minute warning
   if (timeLeft <= 60000) {
@@ -48,7 +49,6 @@ function updateTimer() {
 
   requestAnimationFrame(updateTimer);
 }
-
 updateTimer();
 
 // submit button
