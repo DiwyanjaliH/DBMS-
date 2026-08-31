@@ -4,7 +4,7 @@ const submitBtn = document.getElementById("submitBtn");
 const notification = document.getElementById("notification");
 const timerDisplay = document.getElementById("timer");
 
-const dropboxLink = "https://www.dropbox.com/request/1sl8i9ymay676x6y6rjj";
+const dropboxLink = "https://www.dropbox.com/request/wezrdhybptkc0czjch58";
 
 // ⏳ 60 minutes in ms
 const DURATION = 2 * 60 * 60 * 1000;
