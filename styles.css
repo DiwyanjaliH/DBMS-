@@ -185,7 +185,7 @@ body{
 /* Main Container */
 
 .container{
-  width:90%;
+  /*width:90%; */
   max-width:2500px;
   padding:60px;
   border-radius:25px;
