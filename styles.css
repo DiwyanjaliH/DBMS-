@@ -186,8 +186,8 @@ body{
 
 .container{
   width:90%;
-  max-width:1200px;
-  padding:40px;
+  max-width:2500px;
+  padding:60px;
   border-radius:25px;
   text-align:center;
   background:rgba(85, 84, 84, 0.08);
